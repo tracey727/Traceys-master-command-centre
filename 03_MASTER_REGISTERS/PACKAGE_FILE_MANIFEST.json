@@ -1,0 +1,62 @@
+[
+  {
+    "path": "01_READ_FIRST/README.md",
+    "size_bytes": 1453,
+    "sha256": "8936c4b5d677430d24532a02a452b810663e55ce2acab6894542d913265b02c0"
+  },
+  {
+    "path": "02_VERIFIED_SOURCE_FILES/GENEVIEVE_APP_2TB_DEPLOYMENT_ORDER_REGISTER_V2.xlsx",
+    "size_bytes": 121961,
+    "sha256": "4bc343c59aead1641b3fefd88da62258f226a2d3cb9b240587ef87f9cabf5e6e"
+  },
+  {
+    "path": "02_VERIFIED_SOURCE_FILES/GENEVIEVE_DOGPARK_FINAL_DEPLOY_TODAY.zip",
+    "size_bytes": 69087,
+    "sha256": "fa2b19435fb1a4d0c46efa47850decee0ec319e1fab82bd45309646790c2d97a"
+  },
+  {
+    "path": "02_VERIFIED_SOURCE_FILES/GENEVIEVE_IP_MASTER_RECORD_REVISION_4_IP_AUSTRALIA_FILING_ARCHITECTURE.docx",
+    "size_bytes": 805457,
+    "sha256": "206752e4f663a82ae3f95395123d21bdf3d5443d9eda8ff9d60726c4d7dd222e"
+  },
+  {
+    "path": "02_VERIFIED_SOURCE_FILES/GENEVIEVE_LAUNCH_CONTROL_REGISTER.xlsx",
+    "size_bytes": 47988,
+    "sha256": "1b7d793038e030901f3d87476f7d98cfaa1798c4b96bfa534607e101876c0f67"
+  },
+  {
+    "path": "02_VERIFIED_SOURCE_FILES/GENEVIEVE_PATENT_FAMILY_LOCK_2026-07-23.txt",
+    "size_bytes": 1221,
+    "sha256": "b1984cc1446a963029a78150ccb6b43b6e33a5e198f5f932c095abd446edfff4"
+  },
+  {
+    "path": "03_MASTER_REGISTERS/GENEVIEVE_COMMAND_CENTRE_DATA.json",
+    "size_bytes": 12066,
+    "sha256": "5e15618c3401fe2b933356d4291140d4d9f80cb7594e12969e0adc69125e96bb"
+  },
+  {
+    "path": "03_MASTER_REGISTERS/GENEVIEVE_MASTER_PROJECT_REGISTER.csv",
+    "size_bytes": 5907,
+    "sha256": "777b4ddaf8c7a36e764567585d6fc9363cdc7e82ce53f473f13520b5e3dbc33d"
+  },
+  {
+    "path": "03_MASTER_REGISTERS/VERIFIED_TIMELINE.md",
+    "size_bytes": 1636,
+    "sha256": "b151b21f8f78c33c48c1e4373af0fa2fb3a643165aaac81f4e0a8138aa34f5d3"
+  },
+  {
+    "path": "04_COMMAND_CENTRE_PROGRAM/GENEVIEVE_COMMAND_CENTRE.html",
+    "size_bytes": 16044,
+    "sha256": "cb7406528fc5e9445d64dcc5cf305d856c0ebe9f6c4021464ce0b86589a56065"
+  },
+  {
+    "path": "04_COMMAND_CENTRE_PROGRAM/HOW_TO_USE.txt",
+    "size_bytes": 307,
+    "sha256": "b9abd50a804541c2a619a426eb75f0aaf9532cccb8bbdf5fd8d9b15e1e2a2a23"
+  },
+  {
+    "path": "05_PROJECT_ARCHIVE_NOTES/ARCHIVE_INTEGRITY.md",
+    "size_bytes": 635,
+    "sha256": "17b487a80fe5e58d02cbeebf4fd7f064e804acd081e07aede73baf1657750f60"
+  }
+]

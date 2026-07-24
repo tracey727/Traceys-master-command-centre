@@ -1,0 +1,31 @@
+﻿id,project,division,first_recorded,status,priority,stage,next_action,evidence
+G-001,GENEVIEVE App™ Safety and Compatibility System,Core / Animals,2026-07-03,ACTIVE LAUNCH,1,MVP / deployment,Stabilise the Australia-wide Dog Park launch; do not rename to a local-only product.,Library prototypes and deploy ZIPs
+G-002,Dog Park App,Animals,2026-07-03,ACTIVE LAUNCH,1,Prototype through deploy builds,"Keep one working repository, confirm legal pages, payment path and production deployment.",Numerous dated HTML and ZIP builds
+G-003,GENEVIEVE Facilities,Animals,2026-07-04,PAUSED,3,Multiple vertical starter builds,Resume after Dog Park launch.,"Kennels, cattery, vet, shelters and other ZIPs"
+G-004,GENEVIEVE BagStation™,Physical / Animals,2026-07-05,PAUSED,3,"Concept, code and prototype direction","Engineering review, odour control, bag sealing and service-worker workflow.",Conversation archive and design records
+G-005,GENEVIEVE Food & Grocery,Food / Health,2026-07-01,PAUSED,3,Prototype versions V5–V19,"Retain versions; resume scanner, pantry and grocery optimiser testing later.",Persistent project record
+G-006,Stock Sense,Inventory,2026-07-01,PAUSED,3,Concept / multiple industries,Do not develop until launch is stable.,Deployment register
+G-007,GENEVIEVE Health – Irene clinician wellbeing app,Health,2026-07-24,PAUSED,3,Detailed requirements,"Separate clinical, privacy and employment governance review before pilot.",Conversation record
+G-008,GENEVIEVE Health psychological safety ecosystem,Health,2026-07-20,PAUSED,3,Concept / agreements,Keep human patent family separate from animal patent family.,Patent lock and Irene draft
+G-009,Police command and officer-safety dashboard,Emergency / Safety,2026-07-20,PAUSED,3,Dashboard concept,"Require police, privacy, security and operational validation.",Conversation archive
+G-010,Ambulance / SES responder dashboards,Emergency / Safety,2026-07-20,PAUSED,3,Recovered concept family,Reconstruct only after launch and stakeholder validation.,Conversation archive
+G-011,GENEVIEVE CLEARWAY™,Emergency / Transport,2026-07-24,ARCHIVED,4,Concept,Future authorised responder-routing and traffic coordination research.,Locked memory record
+G-012,GENEVIEVE Auslan Companion™,Accessibility / Animals,2026-07-23,ARCHIVED,4,Proof-of-concept / confidential concept,Future Deaf-community-led validation and dog-training collaboration.,Locked archive record
+G-013,GENEVIEVE Dating safety and compatibility,Social,2026-07-23,IDEA,4,Problem statement,Archive only until launch complete.,Conversation title
+G-014,Compatibility placement system,Housing / Care,2026-07-23,ARCHIVED,4,Concept,"Future ethics, discrimination, consent and housing-law review.",Locked archive request
+G-015,Women in automotive smart leverage system,Workforce / Mechanical,2026-07-23,ARCHIVED,4,Tool + app concept,Future ergonomic and trade-industry validation.,Conversation archive
+G-016,AURA-800 Smart Coffee Table,Physical / Furniture,2026-07-21,PAUSED,4,Detailed concept and mockups,"Engineering, electrical, thermal and manufacturability review.",Locked concept record
+G-017,GENEVIEVE Smart Boardroom Table,Physical / Business,2026-07-22,PAUSED,4,Detailed system brief,Separate feasible product requirements from speculative self-upgrading features.,Conversation archive
+G-018,GENEVIEVE Sanctuary Pod,Wellness / Physical,2026-07-01,PAUSED,4,Concept,"Safety, sanitation and product-market review.",Conversation archive
+G-019,Automated body-shaving system,Personal care / Robotics,2026-06-26,PAUSED,4,Concept,High safety threshold; professional engineering and dermatology input.,Conversation archive
+G-020,Construction furniture lift / hoist,Construction / Mechanical,2026-07-01,PAUSED,4,Concept,Mechanical engineer and WHS review before any prototype.,Persistent project record
+G-021,Weather cancellation broadcast tool,Operations,2026-07-01,PAUSED,4,Concept,Resume after launch; define sectors and authorised senders.,Persistent project record
+G-022,Puberty education app,Education / Health,2026-07-01,PAUSED,4,Concept,"Child safety, privacy and expert content validation.",Persistent project record
+G-023,Dog-park emergency identity and animal-care workflow,Animals / Emergency,2026-07-23,REQUIREMENT,2,Real incident insight,"Add responsible-contact, temporary animal-care and no-guarantee safety workflow to launch backlog.",Real incident conversation
+G-024,Worker equipment fairness / park complaint,Advocacy,2026-07-21 09:36,DOCUMENTED,3,Complaint evidence,Retain photos and correspondence as a separate advocacy record.,Dated conversation and photos
+G-025,Brand system – GA emblem and Tree & Roots emblem,Brand / IP,2026-07-16,LOCKED,1,Final master directions,"Do not alter locked geometry, colours or emblem rules.",Persistent brand lock
+G-026,Animal patent family,IP,2026-03 (exact date unverified),FILED / LOCKED RECORD,1,Australian application record,Verify exact priority and filing dates from official receipts; never insert placeholders as facts.,Patent family lock and IP master record
+G-027,Human safety patent family,IP,2026-07-23 record,SEPARATE FAMILY,1,Filing stated; exact receipt details incomplete,"Insert exact title, number and filing date only from verified receipt.",Patent family lock
+G-028,Master licensing model,Commercial / IP,2026-07,STRATEGY SELECTED,2,"30% target discussed, not signed","Professional legal, tax and licensing advice; define gross revenue and audit rights.",Launch control register
+G-029,Irene founding-team / performance-gated structure,Health / Corporate,2026-07-21,DRAFT ONLY,2,Non-binding legal-review draft,No shares or ownership are granted until formal legal documents are executed.,Recovered revised draft
+G-030,GENEVIEVE Command Centre,Founder Operations,2026-07-24,ACTIVE TOOL,1,Standalone program created,Use it as the single place to update status and export backups.,This archive

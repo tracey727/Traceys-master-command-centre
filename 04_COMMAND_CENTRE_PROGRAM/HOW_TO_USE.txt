@@ -1,0 +1,6 @@
+Open GENEVIEVE_COMMAND_CENTRE.html in Safari, Chrome, Edge or Firefox.
+Edit any table cell directly.
+Press Save.
+Press Export Backup regularly and keep the JSON file in a safe folder.
+Use Import Backup to restore your records on another device.
+The program is standalone and does not send data to a server.
