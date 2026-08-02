@@ -1,10 +1,18 @@
 {
-  "name": "Genevieve Ecosystem Live Status",
-  "short_name": "Genevieve Live",
-  "description": "Live mobile status dashboard for the Genevieve ecosystem.",
+  "name": "GENEVIEVE App\u2122 \u2014 Ecosystem One",
+  "short_name": "GENEVIEVE App",
+  "description": "Professional Vercel pilot control centre for GENEVIEVE App\u2122 Ecosystem One.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fff7fa",
+  "background_color": "#fbfaf8",
   "theme_color": "#111111",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/GA-OFFICIAL-SQUARE-USAGE.png",
+      "sizes": "750x750",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }

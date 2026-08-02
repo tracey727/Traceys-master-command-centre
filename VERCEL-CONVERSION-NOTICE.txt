@@ -1,0 +1,13 @@
+GENEVIEVE App™ — VERCEL CONVERSION STATUS
+
+Converted from the canonical Ecosystem One V1.26.0 architecture into a single
+Vercel Function gateway plus the professional static/PWA interface.
+
+The Vercel conversion preserves the pilot behaviours needed for public testing:
+component status, tenant separation, consent validation, exact-preview hash,
+human approval, minimum-necessary filtering, signed preparation tokens,
+governed journeys, security rejection tests and linked tamper-evident audits.
+
+This is a fictional-data deployment candidate. It is not permission to process
+real health or animal records, and it does not supersede the canonical Docker
+package unless Tracey Ann Kennedy explicitly approves that change.

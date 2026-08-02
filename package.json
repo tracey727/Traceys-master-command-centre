@@ -1,6 +1,13 @@
 {
-  "name": "genevieve-ecosystem-live-status-v2",
-  "version": "2.0.0",
+  "name": "genevieve-app-ecosystem-one-vercel",
+  "version": "1.26.0-vercel.1",
   "private": true,
-  "description": "Genevieve Ecosystem live Vercel status dashboard"
+  "type": "module",
+  "description": "GENEVIEVE App\u2122 Ecosystem One professional fictional-data Vercel pilot.",
+  "scripts": {
+    "test": "node tests/vercel-smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
