@@ -1,45 +1,23 @@
-GENEVIEVE ECOSYSTEM LIVE STATUS V2
-GitHub + Vercel ready
+GENEVIEVE V3 — 404 REPAIR
 
-THIS IS THE NEXT ZIP AFTER THE MANUAL ONLINE/OFFLINE TEST.
+This repair removes the missing /api/status dependency.
 
-WHAT V2 ADDS
-- A real Vercel Function at /api/status.
-- The phone dashboard checks that live public endpoint.
-- Main Command Centre, Health and Animal status display automatically.
-- Refresh button.
-- Automatic refresh every 30 seconds.
-- If the status function cannot be reached, the dashboard reports OFFLINE.
+UPLOAD THESE THREE FILES TO THE ROOT OF THE EXISTING GITHUB REPOSITORY:
+- app.js
+- status.json
+- service-worker.js
 
-UPLOAD
-1. Open the existing GitHub repository used for the first dashboard.
-2. Delete the old repository files OR upload this full package and replace files with the same names.
-3. Make sure the api folder and api/status.js are included.
-4. Commit to the main branch.
-5. Vercel will redeploy from GitHub.
+Choose Add file > Upload files in GitHub.
+Upload the three extracted files, not this ZIP.
+Commit changes.
+Vercel should redeploy automatically.
 
-VERCEL SETTINGS
-Framework Preset: Other
-Root Directory: repository root
-Build Command: leave empty
-Output Directory: leave empty
+After Vercel finishes:
+1. Open the dashboard.
+2. Refresh the page.
+3. It should show ALL ONLINE.
+4. Deployment test should say:
+   Vercel deployment status responded successfully.
 
-DEFAULT STATUS
-All three services default to ONLINE after deployment because the public Vercel Function is running.
-
-TEST AN OFFLINE STATUS
-In Vercel:
-1. Open the project.
-2. Settings > Environment Variables.
-3. Add one of these variables with the value offline:
-   MAIN_COMMAND_STATUS
-   HEALTH_STATUS
-   ANIMAL_STATUS
-4. Apply it to Production.
-5. Redeploy.
-
-Change the value to online and redeploy to return the service to ONLINE.
-
-IMPORTANT
-This V2 proves that GitHub, Vercel, the public status API and the mobile dashboard work together.
-It does not expose the laptop-only Docker services to the public internet.
+This confirms the public GitHub/Vercel dashboard deployment.
+It does not expose or test laptop-only Docker services.

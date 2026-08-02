@@ -26,7 +26,7 @@
       card.classList.remove("online", "offline");
       card.classList.add("checking");
       card.querySelector(".status-text").textContent = "CHECKING";
-      card.querySelector(".status-detail").textContent = "Contacting live API";
+      card.querySelector(".status-detail").textContent = "Contacting Vercel deployment status";
     });
     overallStatus.textContent = "CHECKING";
     overallStatus.style.color = "#8a6500";
@@ -46,29 +46,28 @@
     }
   };
 
-  const setUpdatedTime = (isoValue) => {
-    const date = isoValue ? new Date(isoValue) : new Date();
+  const setUpdatedTime = () => {
     lastUpdated.textContent = new Intl.DateTimeFormat("en-AU", {
       dateStyle: "medium",
       timeStyle: "short"
-    }).format(date);
+    }).format(new Date());
   };
 
   const checkStatus = async () => {
     setChecking();
     refreshButton.disabled = true;
     refreshButton.textContent = "Checking…";
-    apiMessage.textContent = "Contacting the Vercel status function…";
+    apiMessage.textContent = "Contacting the Vercel deployment status file…";
 
     try {
-      const response = await fetch(`/api/status?t=${Date.now()}`, {
+      const response = await fetch(`/status.json?t=${Date.now()}`, {
         method: "GET",
         cache: "no-store",
         headers: { "Accept": "application/json" }
       });
 
       if (!response.ok) {
-        throw new Error(`Status function returned HTTP ${response.status}`);
+        throw new Error(`Status file returned HTTP ${response.status}`);
       }
 
       const data = await response.json();
@@ -76,20 +75,20 @@
 
       serviceKeys.forEach((key) => {
         const service = services[key] || { online: false, detail: "No status returned" };
-        setCard(key, Boolean(service.online), service.detail || "Live endpoint checked");
+        setCard(key, Boolean(service.online), service.detail || "Deployment status checked");
       });
 
       renderOverall(services);
-      setUpdatedTime(data.checkedAt);
-      apiMessage.textContent = "Live Vercel API responded successfully.";
-      apiAddress.textContent = `${window.location.origin}/api/status`;
+      setUpdatedTime();
+      apiMessage.textContent = "Vercel deployment status responded successfully.";
+      apiAddress.textContent = `${window.location.origin}/status.json`;
     } catch (error) {
-      serviceKeys.forEach((key) => setCard(key, false, "Status API could not be reached"));
-      overallStatus.textContent = "STATUS API OFFLINE";
+      serviceKeys.forEach((key) => setCard(key, false, "Deployment status could not be reached"));
+      overallStatus.textContent = "STATUS CHECK OFFLINE";
       overallStatus.style.color = "#b42318";
       setUpdatedTime();
       apiMessage.textContent = error instanceof Error ? error.message : "Status check failed";
-      apiAddress.textContent = `${window.location.origin}/api/status`;
+      apiAddress.textContent = `${window.location.origin}/status.json`;
     } finally {
       refreshButton.disabled = false;
       refreshButton.textContent = "Refresh";

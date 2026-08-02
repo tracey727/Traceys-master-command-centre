@@ -1,9 +1,10 @@
-const CACHE_NAME = "genevieve-live-status-v2";
+const CACHE_NAME = "genevieve-live-status-v3";
 const APP_SHELL = [
   "/",
   "/index.html",
   "/styles.css",
   "/app.js",
+  "/status.json",
   "/manifest.webmanifest"
 ];
 
@@ -23,7 +24,12 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
-  if (new URL(event.request.url).pathname.startsWith("/api/")) return;
+  const url = new URL(event.request.url);
+
+  if (url.pathname === "/status.json") {
+    event.respondWith(fetch(event.request, { cache: "no-store" }));
+    return;
+  }
 
   event.respondWith(
     fetch(event.request)

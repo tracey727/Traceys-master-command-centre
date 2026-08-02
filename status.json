@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "services": {
+    "main": {
+      "online": true,
+      "detail": "Main Command Centre deployment is reachable"
+    },
+    "health": {
+      "online": true,
+      "detail": "Health deployment test is active"
+    },
+    "animal": {
+      "online": true,
+      "detail": "Animal deployment test is active"
+    }
+  }
+}
