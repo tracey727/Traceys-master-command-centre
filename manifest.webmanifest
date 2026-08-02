@@ -1,0 +1,10 @@
+{
+  "name": "Genevieve Ecosystem Live Status",
+  "short_name": "Genevieve Live",
+  "description": "Live mobile status dashboard for the Genevieve ecosystem.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff7fa",
+  "theme_color": "#111111",
+  "orientation": "portrait"
+}

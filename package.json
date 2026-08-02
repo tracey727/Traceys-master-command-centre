@@ -1,0 +1,6 @@
+{
+  "name": "genevieve-ecosystem-live-status-v2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Genevieve Ecosystem live Vercel status dashboard"
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Genevieve Ecosystem live status dashboard">
+  <title>Genevieve Ecosystem Live Status</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">GENEVIEVE</p>
+        <h1>Ecosystem Status</h1>
+        <p class="subtitle">Live GitHub + Vercel test</p>
+      </div>
+      <span id="modeBadge" class="mode-badge">LIVE CHECK</span>
+    </header>
+
+    <section class="summary-panel" aria-label="System summary">
+      <div>
+        <span class="summary-label">Overall status</span>
+        <strong id="overallStatus">CHECKING</strong>
+      </div>
+      <button id="refreshButton" class="secondary-button" type="button">Refresh</button>
+    </section>
+
+    <section class="service-grid" aria-label="Service status">
+      <article class="service-card checking" data-service="main">
+        <div class="service-heading">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h2>Main Command Centre</h2>
+            <p>Core command status endpoint</p>
+          </div>
+        </div>
+        <div class="status-panel">
+          <span class="status-text">CHECKING</span>
+          <span class="status-detail">Waiting for live API</span>
+        </div>
+      </article>
+
+      <article class="service-card checking" data-service="health">
+        <div class="service-heading">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h2>Health</h2>
+            <p>Health ecosystem status endpoint</p>
+          </div>
+        </div>
+        <div class="status-panel">
+          <span class="status-text">CHECKING</span>
+          <span class="status-detail">Waiting for live API</span>
+        </div>
+      </article>
+
+      <article class="service-card checking" data-service="animal">
+        <div class="service-heading">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h2>Animal</h2>
+            <p>Animal ecosystem status endpoint</p>
+          </div>
+        </div>
+        <div class="status-panel">
+          <span class="status-text">CHECKING</span>
+          <span class="status-detail">Waiting for live API</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="test-panel" aria-label="Deployment test">
+      <h2>Deployment test</h2>
+      <p id="apiMessage">Contacting the Vercel status function…</p>
+      <code id="apiAddress">/api/status</code>
+    </section>
+
+    <footer>
+      <p>Last checked: <span id="lastUpdated">Not checked</span></p>
+      <p>Automatic refresh every 30 seconds while this page is open.</p>
+    </footer>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
